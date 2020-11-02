@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.MuiPaginationItem-page.Mui-selected {
+  background-color: blue !important;
+  border-radius: 1px !important;
+  color: white !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.MuiPaginationItem-rounded {
+  border-radius: 1px !important;
+}
+
+.MuiAutocomplete-hasPopupIcon
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"],
+.MuiAutocomplete-hasClearIcon
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  border-radius: 50px !important;
+  height: 39px !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  padding-top: 2px !important;
+  font-size: 12px !important;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
